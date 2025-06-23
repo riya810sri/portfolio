@@ -700,34 +700,3 @@ transform: translateY(0px);
 opacity: 1;
 }
 }
-
-}
-.btn-box, .read, .btn-submit {
-    width: 100%; /* Full width buttons */
-    padding: 10px;
-    text-align: center;
-}
-}
-@media (max-width: 480px) {
-.navbar a {
-font-size: 20px; /* Smaller font size for mobile /
-}
-.home-content h1 {
-font-size: 36px; / Adjust heading size /
-}
-.home-content h3 {
-font-size: 24px; / Adjust subheading size /
-}
-.home-content p {
-font-size: 16px; / Adjust paragraph size /
-}
-.about-text h2 {
-font-size: 40px; / Adjust heading size /
-}
-.about-text h4 {
-font-size: 24px; / Adjust subheading size /
-}
-.about-text p {
-font-size: 16px; / Adjust paragraph size */
-}
-} 
