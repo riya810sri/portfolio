@@ -708,9 +708,96 @@ margin-left: 100px; }
     100%{
         transform: translateY(0px);
         opacity: 1;
+    }    
+@media (max-width: 1024px) {
+    .header {
+        padding: 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+     .home {
+        padding: 50px 5%;
+        height: auto; /* Allow height to adjust */
+    }
+    .home-content {
+        text-align: center; /* Center text on smaller screens */
+    }
+    .about {
+        grid-template-columns: 1fr; /* Stack columns on small screens */
+    }
+    .about-text h2, .about-text h4, .about-text p {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+    .about-img img {
+        margin-left: 0; /* Remove left margin */
+        max-width: 100%; /* Ensure image is responsive */
+    }
+    .services-list {
+        grid-template-columns: 1fr; /* Stack services on small screens */
+    }
+    .skills-list {
+        grid-template-columns: 1fr; /* Stack skills on small screens */
+    }
+    .contact-card {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .btn-box, .read, .btn-submit {
+        width: 100%; /* Full width buttons */
+        padding: 10px;
+        text-align: center;
     }
 }
-
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+    .home-content h1 {
+        font-size: 36px; /* Adjust heading size */
+    }
+    .home-content h3 {
+        font-size: 24px; /* Adjust subheading size */
+    }
+    .home-content p {
+        font-size: 16px; /* Adjust paragraph size */
+    }
+    .about-text h2 {
+        font-size: 40px; /* Adjust heading size */
+    }
+    .about-text h4 {
+        font-size: 24px; /* Adjust subheading size */
+    }
+    .about-text p {
+        font-size: 16px; /* Adjust paragraph size */
+    }
+    .blog-card {
+        flex-direction: column; /* Stack blog card elements */
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar {
+        width: 100%; /* Full width for navbar */
+    }
+    .navbar a {
+        margin: 5px 0; /* Adjust margin for links */
+        font-size: 18px; /* Smaller font size */
+    }
+    .home {
+        padding: 30px 5%; /* Adjust padding */
+    }
+    .home-content h1 {
+        font-size: 28px; /* Smaller heading size */
+    }
     .home-content h3 {
         font-size: 20px; /* Smaller subheading size */
     }
