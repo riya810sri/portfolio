@@ -710,3 +710,16 @@ margin-left: 100px; }
         opacity: 1;
     }
 }
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+    .navbar a {
+        padding: 8px;
+    }
+    .btn-box, .read, .btn-submit {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
